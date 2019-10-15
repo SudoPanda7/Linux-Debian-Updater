@@ -6,8 +6,8 @@ echo "  =====  ===  === ===  === ===  === =======  ======== ======== ===  === ==
 echo "     === ===  === ===  === ===  === ===      ===  === === ==== ===  === ===  ==="
 echo " ======   ======  =======   ======  ===      ===  === ===  === =======  ===  ==="
 echo""
-echo "This script is designed to run all updates for you machine."
-echo " Actions that will be taken are as follows:
+echo "This script is designed to run all updates for your machine."
+echo "Actions that will be taken are as follows:
 Identify users logged in,
 Update APT repsitories,
 Upgrade APT repositories,
