@@ -12,6 +12,7 @@ Identify users logged in,
 Update APT repsitories,
 Upgrade APT repositories,
 Check other updates,
+Fix any broken packages,
 Remove excess install files."
 echo "You must be an administrator on this machine in order to run these updates"
 echo "Identify what users are logged into this machine. Make sure there are no unathorized users.
@@ -26,6 +27,12 @@ sudo apt -y update
 sudo apt -y upgrade
 
 sudo apt -y dist-upgrade
+
+sudo apt update --fix-missing
+
+sudo dpkg --configure -a
+
+sudo apt install -f
 
 sudo apt autoremove
 
